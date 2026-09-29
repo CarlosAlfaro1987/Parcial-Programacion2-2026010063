@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Vendedor v1 = new Vendedor("Carlos", 1000);
 
-        // Estrategia de comision
+        // Se usa la comision estandar por defecto
 
         v1.mostrarDetalle();
     }
